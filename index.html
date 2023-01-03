@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body id="main">
+    <div class="box">
+      Hello guys!
+      </div>
+    <div class="fullform" id="de">
+        <form action="" method="post" id="form">
+            <label>Artist</label>
+            <input class="inp" type="text" maxLength = "10" id="art"><br><br>
+            <label>Title</label>
+            <input class="inp"type="text" maxLength = "10" id="title"><br><br>
+            <label>Relese Year</label>
+            <input type="date" id="year"><br>
+            <label>Formats:</label>
+            CD<input type="checkbox" id="cd">
+            CASSETTE<input type="checkbox" id="cassette">   
+            LP<input type="checkbox" id="lp"><br>
+            <label>Gold</label>
+            <input type="checkbox" id="gold">
+            <input type="button" value="submit" id="button">
+            
+        </form>
+    </div><br>
+    <div class="newtable">
+    <table border="1" cellspacing="0" cellpadding="20" id="table">
+        <tr id="thead">
+            <th>Artist</th>
+            <th>Title</th>
+            <th>Relese Year</th>
+            <th>Formats</th>
+            <th>Gold</th>
+        </tr>
+    </table></div>
+    <script src="script.js"></script>
+</body>
+</html>

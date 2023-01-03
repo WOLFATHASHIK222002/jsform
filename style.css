@@ -1,0 +1,66 @@
+
+.fullform{
+    
+    margin-top: 10%;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 500px;
+    padding: 60px;
+    font-family: cursive;
+    animation: form1 5s infinite  ease-out;
+    color: crimson;
+    position: relative;
+    left: 5%;
+}
+.box {
+    width: 100px;
+    background: crimson;
+    padding: 8px;
+    margin-left: 0;
+    color: white;
+    text-align: center;
+    animation: name 3s;
+}
+@keyframes name{
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+.fullform:active{
+    border: 1px solid red;
+}
+.newtable {
+    margin-left: 900px;
+    margin-top: -400px;
+
+    font-family: cursive;
+
+    position: absolute;
+    left: -10%;
+    
+}
+
+th{
+    background-color: red;
+    color: #fff;
+}
+
+.inp:hover{
+   border-style: double;
+    border-top: hidden;
+    border-left: hidden;
+    border-right:hidden ;
+
+    border-bottom: 2px solid black;
+}
+.inp{
+    outline: none;
+}
+.inp:focus,.inp:valid{
+
+    border-color: green;
+}
